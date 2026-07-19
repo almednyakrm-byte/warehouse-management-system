@@ -1,0 +1,40 @@
+{
+  "project_name": "تطبيق إدارة مخازن مع تتبع المخزون والطلبات",
+  "project_type": "inventory_management",
+  "color_palette": "gray-700 and blue-500",
+  "modules": [
+    "warehouses",
+    "inventory",
+    "orders",
+    "suppliers"
+  ],
+  "pages": [
+    "login",
+    "register",
+    "dashboard",
+    "warehouse_list",
+    "inventory_list",
+    "order_list",
+    "supplier_list"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "dashboard",
+      "warehouse_list",
+      "inventory_list",
+      "order_list"
+    ],
+    "admin": [
+      "dashboard",
+      "warehouse_list",
+      "inventory_list",
+      "order_list",
+      "supplier_list",
+      "register"
+    ]
+  }
+}
