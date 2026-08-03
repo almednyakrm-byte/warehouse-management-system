@@ -1,0 +1,51 @@
+{
+  "project_name": "نظام إدارة مخازن",
+  "project_type": "inventory_management",
+  "color_palette": "indigo-500 and gray-300",
+  "modules": [
+    "products",
+    "suppliers",
+    "warehouses"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_products",
+    "add_product",
+    "edit_product",
+    "delete_product",
+    "list_suppliers",
+    "add_supplier",
+    "list_warehouses",
+    "add_warehouse"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_products",
+      "add_product",
+      "edit_product",
+      "delete_product",
+      "list_suppliers",
+      "add_supplier",
+      "list_warehouses"
+    ],
+    "admin": [
+      "index",
+      "list_products",
+      "add_product",
+      "edit_product",
+      "delete_product",
+      "list_suppliers",
+      "add_supplier",
+      "list_warehouses",
+      "add_warehouse"
+    ]
+  }
+}
